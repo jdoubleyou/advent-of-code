@@ -1,0 +1,6 @@
+*.pyc
+__pycache__
+__logs__
+__pytestcache__
+inputs
+outputs

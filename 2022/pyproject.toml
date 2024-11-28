@@ -1,0 +1,19 @@
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+minversion = "7.0"
+addopts = ". -vvvv -rxXs -s"
+console_output_style = "count"
+testpaths = ["test"]
+log_file = "__logs__/pytest.log"
+log_file_level = "INFO"
+log_format = "%(message)s"
+log_date_format = ""
+cache_dir = "__pytestcache__"
+python_files = "puzzle_*"
+
+[tool.black]
+extend-exclude = "^/venv"
+
+[tool.isort]
+profile = "black"
+force_single_line = true

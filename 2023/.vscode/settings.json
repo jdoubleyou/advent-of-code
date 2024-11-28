@@ -1,0 +1,15 @@
+{
+  "zig.zls.path": "/Users/jacobwilliamson/Developer/tools/zls/zig-out/bin/zls",
+  "[zig]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ziglang.vscode-zig",
+    "files.eol": "\n",
+    "editor.snippets.codeActions.enabled": true,
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.showSnippets": true
+  },
+  "zig.formattingProvider": "zls",
+  "zig.zls.buildRunnerPath": "/Users/jacobwilliamson/Developer/tools/zls/zig-out/bin/build_runner.zig",
+  "zig.zls.checkForUpdate": false,
+  "zig.zls.inlayHintsHideRedundantParamNames": true
+}

@@ -1,0 +1,14 @@
+{
+  "python.defaultInterpreterPath": "venv/bin/python",
+  "python.analysis.extraPaths": ["venv/bin/"],
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.importFormat": "relative",
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true
+}
